@@ -1,8 +1,14 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+.tablero {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  background-color: rgb(206, 229, 236);
+  width: 1024px;
 }
-body {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+
+.carta {
+  width: 230px;
+  height: 230px;
+  background-color: lightblue;
+  border-radius: 10px;
 }
