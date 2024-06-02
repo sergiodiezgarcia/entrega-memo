@@ -6,3 +6,11 @@
 body {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
+
+.tablero {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 columnas de igual tamaño */
+  grid-template-rows: repeat(3, 1fr);    /* 3 filas de igual tamaño */
+  gap: 10px; /* Espacio entre las cartas, ajusta según sea necesario */
+  padding: 20px; /* Relleno alrededor del grid, ajusta según sea necesario */
+}
